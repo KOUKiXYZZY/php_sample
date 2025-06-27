@@ -5,7 +5,7 @@ function getLocalAddress() {
 }
 
 function getLocalHostName() {
-	$server_ip = getLocalAddress()
+	$server_ip = getLocalAddress();
 	if (is_null($server_ip)) {
 		$hostname = null;
 	} else {
